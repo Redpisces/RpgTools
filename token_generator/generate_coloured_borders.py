@@ -45,4 +45,5 @@ for subdir, dirs, files in os.walk(os.path.join(dir_path,FILES)):
 			for c in COMMANDS:
 				COMMAND+=" \""+c+"\""
 			ret=os.popen(COMMAND)
+	break
 
